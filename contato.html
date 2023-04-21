@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Vittor Patricio">
+    <title>Contato</title>
+    <link rel="shortcut icon" href="Logo L4L.svg" type="image/x-icon"/>
+    <link rel="stylesheet" href="contato.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="left-side">
+          <a href="#"><img src="Arrow1.svg" alt="Arrow"></a>
+          <div class="head-left">
+
+            <img src="Logo White L4L.svg" alt="White Logo">
+          </div>
+          <div class="body-left">
+            <div class="title-text"><h1>Olá!</h1></div>
+            <div class="text-left">
+              <p id="paragraph-1">O Life for Live é um projeto que tem como objetivo contribuir para a solução dos ODS estabelecidos pela ONU no Brasil.
+              Se você tiver alguma dúvida ou sugestão, ou quiser contribuir de alguma forma para nosso trabalho, por favor, entre em contato conosco.</p>
+
+              <p id="paragraph-2">Estamos sempre prontos para ouvir e aprender com nossos clientes e parceiros. Agradecemos novamente pelo seu interesse e esperamos poder contar com sua colaboração para construir um mundo mais justo e sustentável. </p>
+
+              <p id="paragraph-3">Atenciosamente, Equipe Life for Live.</p>
+            </div>
+          </div>
+          <div class="footer-left">          
+               <img src="facebook.svg" alt="facebook" id="facebook">
+              <img src="twitter.svg" alt="twitter" id="twitter">
+              <img src="instagram.svg" alt="instagram" id="instagram">
+
+          </div>
+        </div>
+
+        <div class="right-side">
+
+          <div class="card-contato">
+            <div class="head-right">
+              <h1>Contato</h1>
+            </div>
+            
+              <div class="textfield">
+                <label for="usuario">Nome</label>
+                <input type="text" name="usuario" placeholder="Digite seu nome" />
+              </div>
+
+              <div class="textfield">
+               <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="exemplo@gmail.com" />
+              </div>
+
+              <div class="textfield">
+                <label for="text-message">Sua mensagem</label>
+                <textarea name="text-message" id="text-message" cols="30" rows="10" placeholder="Site nota 10!"></textarea>
+              </div>
+              <button class="btn-send">Enviar</button>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+  </body>
+</html>
